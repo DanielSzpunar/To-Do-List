@@ -31,7 +31,11 @@ function loadList(array) {
     });
 }
 
-
+//clear the local storage method:
+clear.addEventListener("click", function(){
+    localStorage.clear();
+    location.reload();
+})
 
 //Show todays date:
 const options = {
